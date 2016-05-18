@@ -1,0 +1,13 @@
+Implementation of a general fully connected feedforward neural net framework for classification on CPUs. Nets are trained using mini-batch gradient descent and backpropagation. 
+
+Includes functionality for:
+- Arbitrary activation functions for hidden layers and output layers
+- Arbitrary cost functions
+- Weight decay, momentum, learning rate decay
+- Snapshotting, i.e. saving pickles of a net
+
+Logic is all in NeuralNetwork.py and NetworkLayer.py. Library of activation and loss functions in ActivationAndLossFunctions.py. 
+
+mnist_utils.py is a utility file for working with the mnist data set and processing data for kaggle, including doing elastic transformations. 
+
+See example usage in example.py.
