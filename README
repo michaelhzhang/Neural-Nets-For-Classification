@@ -1,6 +1,7 @@
 Implementation of a general fully connected feedforward neural net framework for classification on CPUs. Nets are trained using mini-batch gradient descent and backpropagation. 
 
 Includes functionality for:
+- Arbitrary number of hidden layers
 - Arbitrary activation functions for hidden layers and output layers
 - Arbitrary cost functions
 - Weight decay, momentum, learning rate decay
